@@ -33,6 +33,7 @@ h1{
 
 @media (max-width: 750px) {
     h1 {
+        background-color: gray;
         font-size: 3rem;
     }
 
