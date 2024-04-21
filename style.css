@@ -1,0 +1,31 @@
+h1{
+    font-family: 'Lexend',sans-serif;
+}
+#search{
+    width: max-content;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px;
+    border-radius: 28px;
+    transition: box-shadow 0.25s;
+
+}
+#search:focus-within{
+    box-shadow: 0 0 2px rgba(0,0,0,0.75);
+}
+.sInput{
+    font-size: 16px;
+    font-family: 'Lexend',sans-serif;
+    color: #333333;
+    margin-right: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 19rem;
+}
+.sIcon:hover{
+    cursor: pointer;
+}
+
