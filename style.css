@@ -31,12 +31,12 @@ h1{
 }
 
 
-@media(max-width: 750px) {
-    h1{
+@media (max-width: 750px) {
+    h1 {
         font-size: 3rem;
     }
 
-    .sInput{
-        width: 30rem;
+    .sInput {
+        font-size: 18px; 
     }
 }
