@@ -1,5 +1,6 @@
 h1{
     font-family: 'Lexend',sans-serif;
+    
 }
 
 #search{
@@ -30,7 +31,10 @@ h1{
     cursor: pointer;
 }
 
-
+.Disclaimer{
+    color: gray;
+    margin-top: 10px;
+}
 @media (max-width: 750px) {
     .main{
         /* background-color: red; */
