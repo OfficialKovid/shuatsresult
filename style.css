@@ -2,6 +2,7 @@ h1{
     font-family: 'Lexend',sans-serif;
     
 }
+/* .main{height: 100vh} */
 
 #search{
     width: max-content;
@@ -30,26 +31,22 @@ h1{
 .sIcon:hover{
     cursor: pointer;
 }
-
+form{
+    margin-bottom: 0.7rem;
+}
 .Disclaimer{
     color: gray;
-    margin-top: 10px;
 }
-@media (max-width: 750px) {
-    .main{
-        /* background-color: red; */
-        height: 90vh;
-        display: flex;
-        flex-direction: column;
-        
-        justify-content: center;
-    }
+/* Media queries for responsiveness */
+@media(max-width: 600px) {
     h1 {
-        /* background-color: gray; */
-        font-size: 3rem;
+        font-size: 2rem;
+    }
+    #search{
+        width: 80%;
+    }
+    .sInput{
+        width: 90%;
     }
 
-    .sInput {
-        font-size: 18px; 
-    }
 }
